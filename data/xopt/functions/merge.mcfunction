@@ -1,0 +1,12 @@
+execute as @e[type=minecraft:experience_orb,nbt={Value:1s}] run function xopt:merge_each_1
+execute as @e[type=minecraft:experience_orb,nbt={Value:2s}] run function xopt:merge_each_2
+execute as @e[type=minecraft:experience_orb,nbt={Value:4s}] run function xopt:merge_each_4
+execute as @e[type=minecraft:experience_orb,nbt={Value:8s}] run function xopt:merge_each_8
+execute as @e[type=minecraft:experience_orb,nbt={Value:16s}] run function xopt:merge_each_16
+execute as @e[type=minecraft:experience_orb,nbt={Value:32s}] run function xopt:merge_each_32
+execute as @e[type=minecraft:experience_orb,nbt={Value:64s}] run function xopt:merge_each_64
+execute as @e[type=minecraft:experience_orb,nbt={Value:128s}] run function xopt:merge_each_128
+execute as @e[type=minecraft:experience_orb,nbt={Value:256s}] run function xopt:merge_each_256
+execute as @e[type=minecraft:experience_orb,nbt={Value:512s}] run function xopt:merge_each_512
+execute as @e[type=minecraft:experience_orb,nbt={Value:1024s}] run function xopt:merge_each_1024
+execute as @e[type=minecraft:experience_orb,nbt={Value:2048s}] run function xopt:merge_each_2048
