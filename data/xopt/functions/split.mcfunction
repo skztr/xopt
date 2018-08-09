@@ -74,11 +74,11 @@ execute as @e[type=minecraft:experience_orb,nbt={Value:617}] run execute at @s r
 execute as @e[type=minecraft:experience_orb,nbt={Value:617}] run data merge entity @s {Value:512s}
 
 # 1237
-execute as @e[type=minecraft:experience_orb,nbt={Value:1237}] run summon minecraft:experience_orb ~ ~ ~ {Value:1s}
-execute as @e[type=minecraft:experience_orb,nbt={Value:1237}] run summon minecraft:experience_orb ~ ~ ~ {Value:4s}
-execute as @e[type=minecraft:experience_orb,nbt={Value:1237}] run summon minecraft:experience_orb ~ ~ ~ {Value:16s}
-execute as @e[type=minecraft:experience_orb,nbt={Value:1237}] run summon minecraft:experience_orb ~ ~ ~ {Value:64s}
-execute as @e[type=minecraft:experience_orb,nbt={Value:1237}] run summon minecraft:experience_orb ~ ~ ~ {Value:128s}
+execute as @e[type=minecraft:experience_orb,nbt={Value:1237}] run execute at @s run summon minecraft:experience_orb ~ ~ ~ {Value:1s}
+execute as @e[type=minecraft:experience_orb,nbt={Value:1237}] run execute at @s run summon minecraft:experience_orb ~ ~ ~ {Value:4s}
+execute as @e[type=minecraft:experience_orb,nbt={Value:1237}] run execute at @s run summon minecraft:experience_orb ~ ~ ~ {Value:16s}
+execute as @e[type=minecraft:experience_orb,nbt={Value:1237}] run execute at @s run summon minecraft:experience_orb ~ ~ ~ {Value:64s}
+execute as @e[type=minecraft:experience_orb,nbt={Value:1237}] run execute at @s run summon minecraft:experience_orb ~ ~ ~ {Value:128s}
 execute as @e[type=minecraft:experience_orb,nbt={Value:1237}] run data merge entity @s {Value:1024}
 
 # 2477
