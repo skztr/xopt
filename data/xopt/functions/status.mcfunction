@@ -1,0 +1,2 @@
+execute unless score #xopt_global xopt_disabled matches 1 run tellraw @s [{"text":"xopt is "},{"text":"enabled","color":"green"},{"text":" ["},{"text":"disable","color":"red","clickEvent":{"action":"run_command","value":"/function xopt:disable"}},{"text":"]"}]
+execute if score #xopt_global xopt_disabled matches 1 run tellraw @s [{"text":"xopt is "},{"text":"disabled","color":"red"},{"text":" ["},{"text":"enable","color":"green","clickEvent":{"action":"run_command","value":"/function xopt:enable"}},{"text":"]"}]
